@@ -1,18 +1,19 @@
 import "./App.css";
-// import Form from "./components/Form";
 import Navbar from "./components/Navbar";
-// import SlideButton from "./components/SlideButton";
-import TextForm from "./components/TextForm";
-// import SlideButton from "./components/SlideButton";
+// import TextForm from "./components/TextForm";
+import About from "./components/About";
+import BasicForm from "./components/BasicForm";
+import UnderstandingHooks from "./components/UnderstandingHooks";
 function App() {
   return (
     <>
-      <Navbar title = "TextUtils" aboutText = "About TextUtils"/>
+      <Navbar title = "TextUtils" aboutText = "About TextUtils" contactUs = "Contact Us"/>
       <br/>
-      <div className="container my-3">
+      {/* <div className="container my-3">
         <TextForm heading = "Enter text to analyze"/>   
-      </div>
+      </div> */}
 
+      {/* <About/> */}
       {/* <div  className="container my-3">
         <SlideButton/>      
       </div>
@@ -20,6 +21,8 @@ function App() {
         <Form/>      
       </div> */}
 
+      <BasicForm/>
+      <UnderstandingHooks/>
     </>
     );
 }

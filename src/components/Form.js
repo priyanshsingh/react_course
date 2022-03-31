@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <>
-      <div classNameName="mb-3 row">
+      <div className="mb-3 row">
         <label for="staticEmail" className="col-sm-2 col-form-label">
           Email
         </label>
