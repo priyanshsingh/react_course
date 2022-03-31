@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import BasicForm from "./components/BasicForm";
 import UnderstandingHooks from "./components/UnderstandingHooks";
+import UseStateHook from "./components/UseStateHook";
 function App() {
   return (
     <>
@@ -21,8 +22,10 @@ function App() {
         <Form/>      
       </div> */}
 
-      <BasicForm/>
-      <UnderstandingHooks/>
+      {/* <BasicForm/> */}
+      {/* <UnderstandingHooks/> */}
+
+      <UseStateHook/>
     </>
     );
 }
